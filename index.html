@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Regex Tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mini Regex Tester</h1>
+        <div class="input-section">
+            <div class="regex-input">
+                <label for="regex">Regular Expression:</label>
+                <input type="text" id="regex" placeholder="Enter your regex...">
+                <div class="flags">
+                    <label><input type="checkbox" id="flag-g"> Global (g)</label>
+                    <label><input type="checkbox" id="flag-i"> Case-insensitive (i)</label>
+                    <label><input type="checkbox" id="flag-m"> Multiline (m)</label>
+                </div>
+            </div>
+            <div class="test-input">
+                <label for="test-string">Test String:</label>
+                <textarea id="test-string" placeholder="Enter text to test against..."></textarea>
+            </div>
+        </div>
+        <div class="results-section">
+            <h2>Results</h2>
+            <div id="results"></div>
+            <div class="match-info">
+                <div id="match-count">Matches: 0</div>
+                <div id="match-details"></div>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "mini-regex-tester",
+  "version": "1.0.0",
+  "description": "A simple offline regex tester",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  }
+}
