@@ -19,8 +19,8 @@ Make sure you have the following installed on your system:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mini-regex-tester.git
-   cd mini-regex-tester
+   git clone https://github.com/makalin/Mini-Regex-Tester.git
+   cd Mini-Regex-Tester
    ```
 2. Install dependencies:
    ```bash
